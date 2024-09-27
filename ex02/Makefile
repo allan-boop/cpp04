@@ -6,7 +6,7 @@ SRCS =	main.cpp \
 		WrongCat.cpp \
 		Brain.cpp
 
-NAME =poly
+NAME =abstract
 
 OBJS := $(SRCS:%.cpp=%.o)
 

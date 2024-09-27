@@ -1,4 +1,8 @@
 #include "Dog.hpp"
+#include <iostream>
+#include <string>
+#include "Animal.hpp"
+
 
 Dog::Dog() : Animal("Dog") {
 	std::cout << "Dog default constructor called" << std::endl;

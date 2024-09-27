@@ -2,6 +2,7 @@
 #include "Brain.hpp"
 #include "Animal.hpp"
 #include <iostream>
+#include <cstdlib>
 
 Dog::Dog() : Animal("Dog"), _brain(new Brain())
 {
